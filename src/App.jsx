@@ -1,6 +1,6 @@
 import { HashRouter as Router } from 'react-router-dom';
-import Header from './components/header/Header';
-import Container from './components/container/Container';
+import Header from './components/Header/Header';
+import Container from './components/Container/Container';
 
 const App = () => {
     return (
