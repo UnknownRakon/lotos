@@ -43,6 +43,10 @@ const Sidebar = () => {
             className={styles.sidebar}
             initial={false}
             animate={isOpen ? 'open' : 'closed'}
+            variants={{
+                open: { zIndex: 2 },
+                closed: { zIndex: 1, transition: { zIndex: { delay: 2 } } },
+            }}
             custom={height}
             ref={containerRef}
         >
