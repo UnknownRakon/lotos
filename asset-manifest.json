@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/lotos/static/css/main.daa6185d.chunk.css",
-    "main.js": "/lotos/static/js/main.9e061e3a.chunk.js",
-    "main.js.map": "/lotos/static/js/main.9e061e3a.chunk.js.map",
+    "main.css": "/lotos/static/css/main.a470f462.chunk.css",
+    "main.js": "/lotos/static/js/main.3bea5b55.chunk.js",
+    "main.js.map": "/lotos/static/js/main.3bea5b55.chunk.js.map",
     "runtime-main.js": "/lotos/static/js/runtime-main.722a695f.js",
     "runtime-main.js.map": "/lotos/static/js/runtime-main.722a695f.js.map",
-    "static/js/2.2746c53a.chunk.js": "/lotos/static/js/2.2746c53a.chunk.js",
-    "static/js/2.2746c53a.chunk.js.map": "/lotos/static/js/2.2746c53a.chunk.js.map",
+    "static/css/2.eb0cfc94.chunk.css": "/lotos/static/css/2.eb0cfc94.chunk.css",
+    "static/js/2.eeb1ffba.chunk.js": "/lotos/static/js/2.eeb1ffba.chunk.js",
+    "static/js/2.eeb1ffba.chunk.js.map": "/lotos/static/js/2.eeb1ffba.chunk.js.map",
     "index.html": "/lotos/index.html",
-    "static/css/main.daa6185d.chunk.css.map": "/lotos/static/css/main.daa6185d.chunk.css.map",
-    "static/js/2.2746c53a.chunk.js.LICENSE.txt": "/lotos/static/js/2.2746c53a.chunk.js.LICENSE.txt",
+    "static/css/2.eb0cfc94.chunk.css.map": "/lotos/static/css/2.eb0cfc94.chunk.css.map",
+    "static/css/main.a470f462.chunk.css.map": "/lotos/static/css/main.a470f462.chunk.css.map",
+    "static/js/2.eeb1ffba.chunk.js.LICENSE.txt": "/lotos/static/js/2.eeb1ffba.chunk.js.LICENSE.txt",
     "static/media/11.2da903ce.jpeg": "/lotos/static/media/11.2da903ce.jpeg",
     "static/media/2.0802193b.jpeg": "/lotos/static/media/2.0802193b.jpeg",
     "static/media/20.1e964f69.jpeg": "/lotos/static/media/20.1e964f69.jpeg",
@@ -28,6 +30,7 @@
     "static/media/kvadrik.4b745604.jpg": "/lotos/static/media/kvadrik.4b745604.jpg",
     "static/media/lake.e04b6f5a.png": "/lotos/static/media/lake.e04b6f5a.png",
     "static/media/lizy.e731d5d7.jpg": "/lotos/static/media/lizy.e731d5d7.jpg",
+    "static/media/lodki.0dfff530.jpeg": "/lotos/static/media/lodki.0dfff530.jpeg",
     "static/media/loshadi.9a0e9047.jpg": "/lotos/static/media/loshadi.9a0e9047.jpg",
     "static/media/lotos.541ae6a7.png": "/lotos/static/media/lotos.541ae6a7.png",
     "static/media/ohota.25f13b9a.png": "/lotos/static/media/ohota.25f13b9a.png",
@@ -36,8 +39,9 @@
   },
   "entrypoints": [
     "static/js/runtime-main.722a695f.js",
-    "static/js/2.2746c53a.chunk.js",
-    "static/css/main.daa6185d.chunk.css",
-    "static/js/main.9e061e3a.chunk.js"
+    "static/css/2.eb0cfc94.chunk.css",
+    "static/js/2.eeb1ffba.chunk.js",
+    "static/css/main.a470f462.chunk.css",
+    "static/js/main.3bea5b55.chunk.js"
   ]
 }
