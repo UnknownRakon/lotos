@@ -8,6 +8,7 @@ import seven from './ohota.png';
 import eight from './lotos.png';
 import nine from './kvadrik.jpg';
 import ten from './lizy.jpg';
+import eleven from './loshadi.jpg';
 
 const services = [
     {
@@ -78,6 +79,13 @@ const services = [
         image: ten,
         heading: 'Водные лыжи',
         description: 'Для любителей и профи',
+        cost: '150',
+        type: '/ с человека',
+    },
+    {
+        image: eleven,
+        heading: 'Прогулки на лошадях',
+        description: 'Для взрослых и детей',
         cost: '150',
         type: '/ с человека',
     },
