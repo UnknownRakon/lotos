@@ -4,6 +4,7 @@ import Container from './components/Container/Container';
 import MainPage from './pages/MainPage/MainPage';
 import Footer from './components/Footer/Footer';
 import BookingPage from './components/BookingPage/BookingPage';
+import ServicePage from './pages/Services/ServicePage';
 
 const App = () => {
     return (
@@ -12,9 +13,8 @@ const App = () => {
                 <Header />
                 <Routes>
                     <Route exact path="/" element={<MainPage />} />
-                </Routes>
-                <Routes>
                     <Route exact path="/booking" element={<BookingPage />} />
+                    <Route exact path="/services" element={<ServicePage />} />
                 </Routes>
             </Container>
             <Footer />
