@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <nav className={styles.nav}>
             <NavLink
-                to="/main"
+                to="/"
                 activeClassName={styles.selected}
                 className={styles.link}
             >
