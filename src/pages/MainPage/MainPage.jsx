@@ -1,4 +1,5 @@
 import MainServices from '../../components/MainServices/MainServices';
+import OtherServices from '../../components/OtherServices/OtherServices';
 import Promo from '../../components/Promo/Promo';
 
 const MainPage = () => {
@@ -6,6 +7,7 @@ const MainPage = () => {
         <div>
             <Promo />
             <MainServices />
+            <OtherServices />
         </div>
     );
 };
