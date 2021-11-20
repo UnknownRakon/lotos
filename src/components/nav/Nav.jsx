@@ -3,7 +3,7 @@ import * as styles from './Nav.module.scss';
 
 const Nav = () => {
     return (
-        <nav>
+        <nav className={styles.nav}>
             <NavLink
                 to="/main"
                 activeClassName={styles.selected}
