@@ -1,10 +1,22 @@
 import React from 'react';
+import { motion } from 'framer-motion';
 import * as styles from './BookingPage.module.scss';
 import Wave from './images/Wave';
 import BookForm from './BookForm/BookForm';
 import lake from './images/lake.png';
 import Services from './Services/Services';
 
+const levitatingVariants = {
+    animate: {
+        y: [-10, 10],
+        transition: {
+            type: 'spring',
+            duration: 2,
+            repeat: Infinity,
+            repeatType: 'mirror',
+        },
+    },
+};
 const BookingPage = () => {
     return (
         <div className={styles.bookingPage}>
@@ -24,9 +36,13 @@ const BookingPage = () => {
             </div>
             <form className={styles.bookForm}>
                 <BookForm />
-                <div className={styles.right}>
+                <motion.div
+                    className={styles.right}
+                    variants={levitatingVariants}
+                    animate="animate"
+                >
                     <img src={lake} alt="" />
-                </div>
+                </motion.div>
                 <div className={styles.sectionHeader}>
                     Выберите дополнительные услуги
                 </div>
