@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/lotos/static/css/main.3491f0e2.chunk.css",
+    "main.css": "/lotos/static/css/main.2d963486.chunk.css",
     "main.js": "/lotos/static/js/main.df2da742.chunk.js",
     "main.js.map": "/lotos/static/js/main.df2da742.chunk.js.map",
     "runtime-main.js": "/lotos/static/js/runtime-main.722a695f.js",
@@ -8,7 +8,7 @@
     "static/js/2.01d54cf6.chunk.js": "/lotos/static/js/2.01d54cf6.chunk.js",
     "static/js/2.01d54cf6.chunk.js.map": "/lotos/static/js/2.01d54cf6.chunk.js.map",
     "index.html": "/lotos/index.html",
-    "static/css/main.3491f0e2.chunk.css.map": "/lotos/static/css/main.3491f0e2.chunk.css.map",
+    "static/css/main.2d963486.chunk.css.map": "/lotos/static/css/main.2d963486.chunk.css.map",
     "static/js/2.01d54cf6.chunk.js.LICENSE.txt": "/lotos/static/js/2.01d54cf6.chunk.js.LICENSE.txt",
     "static/media/11.2da903ce.jpeg": "/lotos/static/media/11.2da903ce.jpeg",
     "static/media/2.0802193b.jpeg": "/lotos/static/media/2.0802193b.jpeg",
@@ -26,7 +26,7 @@
   "entrypoints": [
     "static/js/runtime-main.722a695f.js",
     "static/js/2.01d54cf6.chunk.js",
-    "static/css/main.3491f0e2.chunk.css",
+    "static/css/main.2d963486.chunk.css",
     "static/js/main.df2da742.chunk.js"
   ]
 }
