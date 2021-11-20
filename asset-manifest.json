@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/lotos/static/css/main.7ffeaea6.chunk.css",
-    "main.js": "/lotos/static/js/main.99bf7670.chunk.js",
-    "main.js.map": "/lotos/static/js/main.99bf7670.chunk.js.map",
+    "main.css": "/lotos/static/css/main.daa6185d.chunk.css",
+    "main.js": "/lotos/static/js/main.9e061e3a.chunk.js",
+    "main.js.map": "/lotos/static/js/main.9e061e3a.chunk.js.map",
     "runtime-main.js": "/lotos/static/js/runtime-main.722a695f.js",
     "runtime-main.js.map": "/lotos/static/js/runtime-main.722a695f.js.map",
-    "static/js/2.5df68525.chunk.js": "/lotos/static/js/2.5df68525.chunk.js",
-    "static/js/2.5df68525.chunk.js.map": "/lotos/static/js/2.5df68525.chunk.js.map",
+    "static/js/2.2746c53a.chunk.js": "/lotos/static/js/2.2746c53a.chunk.js",
+    "static/js/2.2746c53a.chunk.js.map": "/lotos/static/js/2.2746c53a.chunk.js.map",
     "index.html": "/lotos/index.html",
-    "static/css/main.7ffeaea6.chunk.css.map": "/lotos/static/css/main.7ffeaea6.chunk.css.map",
-    "static/js/2.5df68525.chunk.js.LICENSE.txt": "/lotos/static/js/2.5df68525.chunk.js.LICENSE.txt",
+    "static/css/main.daa6185d.chunk.css.map": "/lotos/static/css/main.daa6185d.chunk.css.map",
+    "static/js/2.2746c53a.chunk.js.LICENSE.txt": "/lotos/static/js/2.2746c53a.chunk.js.LICENSE.txt",
     "static/media/11.2da903ce.jpeg": "/lotos/static/media/11.2da903ce.jpeg",
     "static/media/2.0802193b.jpeg": "/lotos/static/media/2.0802193b.jpeg",
     "static/media/20.1e964f69.jpeg": "/lotos/static/media/20.1e964f69.jpeg",
@@ -36,8 +36,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.722a695f.js",
-    "static/js/2.5df68525.chunk.js",
-    "static/css/main.7ffeaea6.chunk.css",
-    "static/js/main.99bf7670.chunk.js"
+    "static/js/2.2746c53a.chunk.js",
+    "static/css/main.daa6185d.chunk.css",
+    "static/js/main.9e061e3a.chunk.js"
   ]
 }
