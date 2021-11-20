@@ -1,6 +1,6 @@
-import Logo from '../logo/Logo';
-import Nav from '../nav/Nav';
-import Phone from '../phone/Phone';
+import Logo from '../Logo/Logo';
+import Nav from '../Nav/Nav';
+import Phone from '../Phone/Phone';
 import * as styles from './Header.module.scss';
 
 const Header = () => {
