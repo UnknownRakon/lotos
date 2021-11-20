@@ -1,5 +1,13 @@
 .nav {
     display: flex;
     justify-content: space-evenly;
-    flex: 1;
+    flex: 3;
+}
+.link {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
 }
