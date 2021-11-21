@@ -7,9 +7,14 @@
     background-color: #d4eaf0;
     padding: 100px 0 100px 100px;
     border-radius: 32px;
+    @media screen and (max-width: 500px){
+        padding: 20px 0 20px 40px;
+    }
 }
 .text {
     max-width: 50%;
+    z-index: 1;
+    position: relative;
     &Heading {
         color: #0693af;
         font-weight: 700;
@@ -23,15 +28,40 @@
         line-height: 27px;
         color: #79acb7;
     }
+    @media screen and (max-width: 600px){
+        &Heading {
+            font-size: 38px;
+            line-height: 48px;
+        }
+        &Desc {
+            font-size: 20px;
+            line-height: 24px;
+        }
+    }
 }
 .wave {
     position: absolute;
+    z-index: 0;
     top: 0;
     right: 0;
     height: 100%;
     & svg {
         height: 100%;
         width: auto;
+        @media screen and (max-width: 1120px){
+            height: 80%;
+        }@media screen and (max-width: 1000px){
+            height: 300px;
+        }@media screen and (max-width: 600px){
+            opacity: .5;
+        height: auto;
+        width: 80vw;
+        }
+    }
+    @media screen and (max-width: 1120px){
+        bottom: 0;
+        height: unset;
+        top: unset;
     }
 }
 .bookForm {
@@ -39,11 +69,21 @@
     display: grid;
     grid-template-columns: 4fr 6fr;
     column-gap: 5vw;
+    @media screen and (max-width: 1050px){
+        grid-template-columns: 1fr;
+        flex-wrap: wrap;
+    }
+    @media screen and (max-width: 600px){
+        margin-top: 64px;
+    }
 }
 .right {
     & img {
         width: 100%;
         height: auto;
+    }
+    @media screen and (max-width: 1050px){
+        display: none;
     }
 }
 .sectionHeader,

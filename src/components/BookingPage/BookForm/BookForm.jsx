@@ -47,7 +47,7 @@ const BookForm = ({ setBookingData, bookingData }) => {
                     })}
                 </div>
                 <div className={styles.sectionHeader}>Выберите даты</div>
-                <div className={styles.inputs}>
+                <div className={`${styles.inputs} ${styles.wrap}`}>
                     {data[1].map((item) => {
                         return (
                             <Input

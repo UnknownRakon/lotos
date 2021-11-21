@@ -1,7 +1,22 @@
-.container{
-  grid-column: 1/-1;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 6vw;
-  margin-top: 56px;
+.container {
+    grid-column: 1/-1;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3vw;
+    margin-top: 56px;
+    @media screen and (min-width: 1400px) {
+        gap: 96px;
+    }
+    @media screen and (max-width: 1100px) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    @media screen and (max-width: 1000px) {
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+    }
+    @media screen and (max-width: 590px) {
+        grid-template-columns: 1fr;
+        gap: 32px;
+    }
+
 }
