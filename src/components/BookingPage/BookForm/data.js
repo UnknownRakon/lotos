@@ -1,7 +1,7 @@
 const data = [
     [
         {
-            name: 'lastname',
+            name: 'surname',
             placeholder: 'Иванов',
             label: 'Фамилия',
             type: 'text',
@@ -18,22 +18,16 @@ const data = [
             label: 'Номер телефона',
             type: 'tel',
         },
-        {
-            name: 'people',
-            placeholder: '',
-            label: 'Количество человек',
-            type: 'number',
-        },
     ],
     [
         {
-            name: 'when',
+            name: 'datefrom',
             placeholder: '',
             label: 'Когда',
             type: 'date',
         },
         {
-            name: 'back',
+            name: 'dateto',
             placeholder: '',
             label: 'Обратно',
             type: 'date',
