@@ -49,12 +49,6 @@ const ServicesCard = ({ data, setBookingData, bookingData }) => {
             onClick={handleChecked}
             whileHover={{ y: -5, duration: 0.8, type: 'spring' }}
         >
-            <input
-                type="checkbox"
-                checked={isChecked ? 'checked' : ''}
-                value={data.value}
-                className={styles.input}
-            />
             <div className={styles.checkbox}>
                 <SVGCheckbox isChecked={isChecked} />
             </div>
