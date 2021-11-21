@@ -81,7 +81,7 @@ const BookingPage = () => {
                     bookingData={bookingData}
                 />
                 <div className={styles.bookingButton__wrapper}>
-                    <BookingButton func={sendReques} />
+                    <BookingButton onClick={sendReques} />
                 </div>
             </form>
         </div>
