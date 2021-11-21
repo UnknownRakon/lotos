@@ -21,13 +21,27 @@ const Icons = {
     Tools,
     Trip,
 };
-const ServicesCard = ({ data }) => {
+const ServicesCard = ({ data, setBookingData, bookingData }) => {
     const Icon = Icons[data.icon];
     const [isChecked, setIsChecked] = useState(false);
     const handleChecked = () => {
         setIsChecked((prev) => {
             return !prev;
         });
+
+        if (!isChecked) {
+            setBookingData({
+                ...bookingData,
+                services: [...bookingData.services, data.value],
+            });
+        } else {
+            setBookingData({
+                ...bookingData,
+                services: bookingData.services.filter((val) => {
+                    return val !== data.value;
+                }),
+            });
+        }
     };
     return (
         <motion.div
