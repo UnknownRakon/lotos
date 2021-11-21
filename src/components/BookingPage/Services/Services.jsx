@@ -52,11 +52,18 @@ const data = [
         desc: '150 руб/чел',
     },
 ];
-const Services = () => {
+const Services = ({ setBookingData, bookingData }) => {
     return (
         <div className={styles.container}>
             {data.map((item) => {
-                return <ServicesCard data={item} key={item.heading} />;
+                return (
+                    <ServicesCard
+                        data={item}
+                        setBookingData={setBookingData}
+                        bookingData={bookingData}
+                        key={item.heading}
+                    />
+                );
             })}
         </div>
     );

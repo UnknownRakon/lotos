@@ -86,7 +86,8 @@
         display: none;
     }
 }
-.sectionHeader, .sectionSubHeader{
+.sectionHeader,
+.sectionSubHeader {
     grid-column: 1/-1;
 }
 .sectionSubHeader {
@@ -94,9 +95,14 @@
     font-size: 16px;
     margin-top: 16px;
 }
+
 .sectionHeader {
     font-size: 24px;
     font-weight: 500;
     line-height: 28px;
     margin-top: 64px;
+}
+
+.bookingButton__wrapper {
+    margin: 64px 0;
 }

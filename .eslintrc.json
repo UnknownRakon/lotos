@@ -2,14 +2,8 @@
     "env": {
         "browser": true
     },
-    "plugins": [
-        "react",
-        "prettier"
-    ],
-    "extends": [
-        "airbnb",
-        "prettier"
-    ],
+    "plugins": ["react", "prettier"],
+    "extends": ["airbnb", "prettier"],
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -25,14 +19,8 @@
                 "allowArrowFunctions": true
             }
         ],
-        "func-names": [
-            "error",
-            "as-needed"
-        ],
-        "arrow-body-style": [
-            "error",
-            "always"
-        ],
+        "func-names": ["error", "as-needed"],
+        "arrow-body-style": ["error", "always"],
         "prettier/prettier": [
             "error",
             {
@@ -50,10 +38,7 @@
         "react/jsx-filename-extension": [
             1,
             {
-                "extensions": [
-                    ".js",
-                    ".jsx"
-                ]
+                "extensions": [".js", ".jsx"]
             }
         ]
     }
