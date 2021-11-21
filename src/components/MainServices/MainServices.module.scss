@@ -19,6 +19,14 @@
     width: 100%;
     display: flex;
     justify-content: space-between;
+    @media screen and (max-width: 1200px){
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 32px;
+    }
+    @media screen and (max-width: 800px){
+        grid-template-columns: 1fr;
+    }
 }
 .card {
     width: 24%;
@@ -33,6 +41,9 @@
     padding-bottom: 90px;
     box-sizing: border-box;
     background-position: center;
+    @media screen and (max-width: 1200px){
+        width: unset;
+    }
 }
 .p {
     font-family: Ubuntu;
@@ -41,8 +52,18 @@
     font-size: 26px;
     line-height: 30px;
     display: flex;
+    justify-content: center;
     align-items: center;
     text-align: center;
     color: #ffffff;
     width: 74%;
+}
+@media screen and (max-width: 768px) {
+    .h2{
+        font-size: 5.3vw;
+    }
+}@media screen and (max-width: 500px) {
+    .h2{
+        font-size: 30px;
+    }
 }

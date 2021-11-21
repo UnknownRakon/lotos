@@ -1,8 +1,8 @@
 import * as styles from './BookingButton.module.scss';
 
-const BookingButton = ({ func }) => {
+const BookingButton = ({ onClick }) => {
     return (
-        <button type="button" onClick={func} className={styles.button}>
+        <button type="button" onClick={onClick} className={styles.button}>
             Забронировать
         </button>
     );
