@@ -1,10 +1,15 @@
+import { motion } from 'framer-motion';
 import * as styles from './BookingButton.module.scss';
 
 const BookingButton = ({ onClick }) => {
     return (
-        <button type="button" onClick={onClick} className={styles.button}>
+        <motion.button
+            type="button"
+            onClick={onClick}
+            className={styles.button}
+        >
             Забронировать
-        </button>
+        </motion.button>
     );
 };
 export default BookingButton;

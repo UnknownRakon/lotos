@@ -4,53 +4,25 @@ import * as styles from './Nav.module.scss';
 const Nav = () => {
     return (
         <nav className={styles.nav}>
-            <NavLink
-                to="/"
-                activeClassName={styles.selected}
-                className={styles.link}
-            >
+            <NavLink to="/" className={styles.link}>
                 Главная
             </NavLink>
-            <NavLink
-                to="/booking"
-                activeClassName={styles.selected}
-                className={styles.link}
-            >
+            <NavLink to="/booking" className={styles.link}>
                 Бронирование
             </NavLink>
-            <NavLink
-                to="/services"
-                activeClassName={styles.selected}
-                className={styles.link}
-            >
+            <NavLink to="/services" className={styles.link}>
                 Услуги
             </NavLink>
-            <NavLink
-                to="/stock"
-                activeClassName={styles.selected}
-                className={styles.link}
-            >
+            <NavLink to="/stock" className={styles.link}>
                 Акции
             </NavLink>
-            <NavLink
-                to="/news"
-                activeClassName={styles.selected}
-                className={styles.link}
-            >
+            <NavLink to="/news" className={styles.link}>
                 Новости
             </NavLink>
-            <NavLink
-                to="/contacts"
-                activeClassName={styles.selected}
-                className={styles.link}
-            >
+            <NavLink to="/contacts" className={styles.link}>
                 Контакты
             </NavLink>
-            <NavLink
-                to="/about"
-                activeClassName={styles.selected}
-                className={styles.link}
-            >
+            <NavLink to="/about" className={styles.link}>
                 О базе
             </NavLink>
         </nav>
