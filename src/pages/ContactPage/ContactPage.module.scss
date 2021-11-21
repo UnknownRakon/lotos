@@ -1,0 +1,103 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+}
+.contact {
+    display: flex;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+.lodki {
+    border-radius: 40px;
+    flex: 1.2;
+    width: 300px;
+}
+.h2 {
+    font-family: Century Gothic;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 44px;
+    color: #313131;
+    padding: 10px 0;
+    box-sizing: border-box;
+}
+.text {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+    box-sizing: border-box;
+}
+.p {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #868686;
+    margin-bottom: 10px;
+}
+.information {
+    align-self: flex-end;
+    height: 430px;
+    width: 100%;
+    min-width: 300px;
+    background: rgba(184, 216, 235, 0.44);
+    box-shadow: inset 34.4px -34.4px 34.4px rgba(140, 164, 179, 0.1),
+        inset -34.4px 34.4px 34.4px rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(68.8px);
+    border-radius: 40px;
+    padding: 45px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+@media screen and (min-width: 900px) {
+    .information {
+        position: relative;
+        left: -100px;
+        top: -50px;
+        width: 50%;
+    }
+}
+.h3 {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 37px;
+    color: #000000;
+}
+.inf {
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000;
+}
+.map {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 150px 1fr;
+}
+.h2map {
+    @extend .h2;
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+.carta {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    height: 300px;
+}
+.text2 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 0 50px;
+}
