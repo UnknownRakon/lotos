@@ -11,7 +11,7 @@ const Promo = () => {
             <h2 className={styles.h2}>Лучшее место для вашего отдыха</h2>
             <div className={styles.button}>
                 <BookingButton
-                    onCick={() => {
+                    onClick={() => {
                         navigate('/booking');
                     }}
                 />
