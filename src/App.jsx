@@ -8,6 +8,7 @@ import ServicePage from './pages/Services/ServicePage';
 import AboutPage from './pages/AboutPage/AboutPage';
 import ContactPage from './pages/ContactPage/ContactPage';
 import PromoPage from './pages/PromoPage/PromoPage';
+import News from './pages/News/News';
 
 const App = () => {
     return (
@@ -18,6 +19,7 @@ const App = () => {
                     <Route exact path="/" element={<MainPage />} />
                     <Route exact path="/booking" element={<BookingPage />} />
                     <Route exact path="/services" element={<ServicePage />} />
+                    <Route exact path="/news" element={<News />} />
                     <Route exact path="/contacts" element={<ContactPage />} />
                     <Route exact path="/about" element={<AboutPage />} />
                     <Route exact path="/stock" element={<PromoPage />} />
