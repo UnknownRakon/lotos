@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import * as styles from './BookingPage.module.scss';
 import Wave from './images/Wave';
@@ -20,25 +20,31 @@ const levitatingVariants = {
     },
 };
 const BookingPage = () => {
-    useEffect(async () => {
-        const data = await api('get', 'gethome');
-        console.log(data);
-    }, []);
     const defaultBooking = {
         name: '',
         surname: '',
         datefrom: 0,
         dateto: 0,
-        number: '',
+        phone: '',
         vip: false,
         services: [],
     };
     const [bookingData, setBookingData] = useState(defaultBooking);
 
-    const sendReques = async () => {
-        console.log(bookingData);
-        const resp = await api('post', 'addrent', bookingData);
+    const sendRequest = async () => {
+        const resp = await api('post', '', {
+            name: bookingData.name,
+            surname: bookingData.surname,
+            dateFrom: bookingData.datefrom,
+            dateTo: bookingData.dateto,
+            services: bookingData.services,
+            homeType: bookingData.vip ? 'vip' : 'ordinary',
+            phone: bookingData.phone,
+        });
         console.log(resp);
+        if (resp.status === 200) {
+            alert('success');
+        }
     };
 
     return (
@@ -81,7 +87,7 @@ const BookingPage = () => {
                     bookingData={bookingData}
                 />
                 <div className={styles.bookingButton__wrapper}>
-                    <BookingButton onClick={sendReques} />
+                    <BookingButton onClick={sendRequest} />
                 </div>
             </form>
         </div>

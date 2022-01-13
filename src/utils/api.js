@@ -7,7 +7,7 @@ axios.defaults.headers['Access-Control-Allow-Origin'] = '*';
 
 export default async function api(method, url, data) {
     const response = await axios[method](
-        `https://us-central1-lotus-api-6c108.cloudfunctions.net/${url}`,
+        `https://lotos-back.herokuapp.com/${url}`,
         data
     );
     return response;
