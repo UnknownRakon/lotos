@@ -3,7 +3,7 @@ import { useCycle, motion } from 'framer-motion';
 import * as styles from './Sidebar.module.scss';
 import SidebarNav from './SidebarNav/SidebarNav';
 import useDimensions from './use-dimensions';
-import HamburgerButton from '../../HamburgerButton/HamburgerButton';
+import HamburgerButton from '../HamburgerButton/HamburgerButton';
 
 const sidebar = {
     open: (height = 1000) => {
