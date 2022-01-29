@@ -1,6 +1,7 @@
-import MainServices from '../../components/MainServices';
-import OtherServices from '../../components/OtherServices';
-import Promo from '../../components/Promo';
+import React from 'react';
+import MainServices from '@components/MainServices';
+import OtherServices from '@components/OtherServices';
+import Promo from '@components/Promo';
 
 const MainPage = () => {
     return (

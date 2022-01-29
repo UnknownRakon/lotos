@@ -1,12 +1,14 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
+import api from '@services/api';
+import BookingButton from '@components/BookingButton';
+
+import BookForm from './BookForm';
+import Services from './Services';
+
 import * as styles from './BookingPage.module.scss';
 import Wave from './images/Wave';
-import BookForm from './BookForm';
 import lake from './images/lake.png';
-import Services from './Services';
-import api from '../../services/api';
-import BookingButton from '../../components/BookingButton';
 
 const levitatingVariants = {
     animate: {

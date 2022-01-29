@@ -1,3 +1,4 @@
+import React from 'react';
 import { YMaps, Map } from 'react-yandex-maps';
 import * as styles from './ContactPage.module.scss';
 
