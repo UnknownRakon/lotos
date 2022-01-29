@@ -14,6 +14,7 @@ const Promo = () => {
                     onClick={() => {
                         navigate('/booking');
                     }}
+                    text="Забронировать"
                 />
             </div>
         </div>
