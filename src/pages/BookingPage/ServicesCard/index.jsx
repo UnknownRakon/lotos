@@ -9,7 +9,7 @@ import Kater from '../images/Icons/Kater';
 import Ship from '../images/Icons/Ship';
 import Tools from '../images/Icons/Tools';
 import Trip from '../images/Icons/Trip';
-import SVGCheckbox from '../SVGCHeckbox/SVGCHeckbox';
+import SVGCheckbox from '../SVGCHeckbox';
 
 const Icons = {
     Banya,

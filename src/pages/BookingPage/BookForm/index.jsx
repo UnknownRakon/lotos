@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './BookForm.module.scss';
-import Input from '../Input/Input';
+import Input from '../Input';
 import data from './data';
 import InputContainer from '../Input/InputContainer';
 

@@ -2,7 +2,7 @@ import React from 'react';
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import * as styles from './SidebarNav.module.scss';
-import Phone from '../../Phone/Phone';
+import Phone from '../../Phone';
 
 const data = [
     {

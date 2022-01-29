@@ -1,5 +1,5 @@
 import { useNavigate } from 'react-router-dom';
-import BookingButton from '../BookingButton/BookingButton';
+import BookingButton from '../BookingButton';
 import * as styles from './Promo.module.scss';
 
 const Promo = () => {

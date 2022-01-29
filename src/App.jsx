@@ -1,14 +1,14 @@
 import { HashRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header';
-import Container from './components/Container/Container';
-import MainPage from './pages/MainPage/MainPage';
-import Footer from './components/Footer/Footer';
-import BookingPage from './components/BookingPage/BookingPage';
-import ServicePage from './pages/Services/ServicePage';
-import AboutPage from './pages/AboutPage/AboutPage';
-import ContactPage from './pages/ContactPage/ContactPage';
-import PromoPage from './pages/PromoPage/PromoPage';
-import News from './pages/News/News';
+import Header from './components/Header';
+import Container from './components/Container';
+import MainPage from './pages/MainPage';
+import Footer from './components/Footer';
+import BookingPage from './pages/BookingPage';
+import ServicePage from './pages/ServicesPage/ServicePage';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
+import PromoPage from './pages/PromoPage';
+import News from './pages/NewsPage';
 
 const App = () => {
     return (

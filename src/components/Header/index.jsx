@@ -1,9 +1,9 @@
-import Logo from '../Logo/Logo';
-import Nav from '../Nav/Nav';
-import Phone from '../Phone/Phone';
+import Logo from '../Logo';
+import Nav from '../Nav';
+import Phone from '../Phone';
 import * as styles from './Header.module.scss';
-import Sidebar from '../Sidebar/Sidebar';
-import useWindowDimensions from '../useWindowDimensions';
+import Sidebar from '../Sidebar';
+import useWindowDimensions from '../../services/useWindowDimensions';
 
 const Header = () => {
     const { width } = useWindowDimensions();

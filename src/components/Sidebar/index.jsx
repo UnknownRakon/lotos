@@ -1,9 +1,9 @@
 import React, { useRef } from 'react';
 import { useCycle, motion } from 'framer-motion';
 import * as styles from './Sidebar.module.scss';
-import SidebarNav from './SidebarNav/SidebarNav';
-import useDimensions from './use-dimensions';
-import HamburgerButton from '../HamburgerButton/HamburgerButton';
+import SidebarNav from './SidebarNav';
+import useDimensions from '../../services/use-dimensions';
+import HamburgerButton from '../HamburgerButton';
 
 const sidebar = {
     open: (height = 1000) => {

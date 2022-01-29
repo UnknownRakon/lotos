@@ -1,6 +1,6 @@
 import React from 'react';
 import * as styles from './Services.module.scss';
-import ServicesCard from '../ServicesCard/ServicesCard';
+import ServicesCard from '../ServicesCard';
 
 const data = [
     {

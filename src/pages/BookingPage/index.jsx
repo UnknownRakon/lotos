@@ -2,11 +2,11 @@ import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import * as styles from './BookingPage.module.scss';
 import Wave from './images/Wave';
-import BookForm from './BookForm/BookForm';
+import BookForm from './BookForm';
 import lake from './images/lake.png';
-import Services from './Services/Services';
-import api from '../../utils/api';
-import BookingButton from '../BookingButton/BookingButton';
+import Services from './Services';
+import api from '../../services/api';
+import BookingButton from '../../components/BookingButton';
 
 const levitatingVariants = {
     animate: {
@@ -71,9 +71,10 @@ const BookingPage = () => {
                 <motion.div
                     className={styles.right}
                     variants={levitatingVariants}
+                    initial={{ y: 0 }}
                     animate="animate"
                 >
-                    <img src={lake} alt="" />
+                    <img src={lake} alt="lake" />
                 </motion.div>
                 <div className={styles.sectionHeader}>
                     Выберите дополнительные услуги
