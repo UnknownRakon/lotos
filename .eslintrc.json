@@ -10,6 +10,10 @@
         }
     },
     "rules": {
+        "jsx-a11y/label-has-associated-control": 0,
+        "no-underscore-dangle": 0,
+        "endOfLine": 0,
+        "no-unused-vars": "off",
         "import/no-unresolved": [0, { "caseSensitive": false }],
         "import/no-named-as-default": 0,
         "import/no-named-as-default-member": 0,

@@ -1,15 +1,14 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import * as styles from './ServicesCard.module.scss';
-import Banya from '../images/Icons/Banya';
-import Flot from '../images/Icons/Flot';
-import Forest from '../images/Icons/Forest';
-import Hunting from '../images/Icons/Hunting';
-import Kater from '../images/Icons/Kater';
-import Ship from '../images/Icons/Ship';
-import Tools from '../images/Icons/Tools';
-import Trip from '../images/Icons/Trip';
-import SVGCheckbox from '../SVGCHeckbox';
+import Banya from '../../pages/BookingPage/images/Icons/Banya';
+import Flot from '../../pages/BookingPage/images/Icons/Flot';
+import Forest from '../../pages/BookingPage/images/Icons/Forest';
+import Hunting from '../../pages/BookingPage/images/Icons/Hunting';
+import Kater from '../../pages/BookingPage/images/Icons/Kater';
+import Ship from '../../pages/BookingPage/images/Icons/Ship';
+import Tools from '../../pages/BookingPage/images/Icons/Tools';
+import Trip from '../../pages/BookingPage/images/Icons/Trip';
 
 const Icons = {
     Banya,
@@ -21,7 +20,7 @@ const Icons = {
     Tools,
     Trip,
 };
-const ServicesCard = ({ data, setBookingData, bookingData }) => {
+const ServicesCard = ({ data, setBookingData, bookingData, heading }) => {
     const Icon = Icons[data.icon];
     const [isChecked, setIsChecked] = useState(false);
     const handleChecked = () => {
@@ -50,7 +49,7 @@ const ServicesCard = ({ data, setBookingData, bookingData }) => {
             whileHover={{ y: -5, duration: 0.8, type: 'spring' }}
         >
             <div className={styles.checkbox}>
-                <SVGCheckbox isChecked={isChecked} />
+                <input type="checkbox" id={heading} />
             </div>
             <div className={styles.icon}>
                 <Icon />

@@ -1,6 +1,6 @@
 import React from 'react';
+import ServicesCard from '@components/ServicesCard';
 import * as styles from './Services.module.scss';
-import ServicesCard from '../ServicesCard';
 
 const data = [
     {
@@ -57,12 +57,15 @@ const Services = ({ setBookingData, bookingData }) => {
         <div className={styles.container}>
             {data.map((item) => {
                 return (
-                    <ServicesCard
-                        data={item}
-                        setBookingData={setBookingData}
-                        bookingData={bookingData}
-                        key={item.heading}
-                    />
+                    <label htmlFor={item.heading}>
+                        <ServicesCard
+                            data={item}
+                            setBookingData={setBookingData}
+                            bookingData={bookingData}
+                            heading={item.heading}
+                            key={item.heading}
+                        />
+                    </label>
                 );
             })}
         </div>
